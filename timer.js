@@ -33,7 +33,7 @@ function timer(date_in_future) {
   // Если время истекло, показать сообщение
   if (ms < 0) {
     //clearInterval(x);
-    document.getElementById("time").innerHTML = "Время истекло!";
+    document.getElementById("timer").innerHTML = "Время истекло!";
   }
 }
 
